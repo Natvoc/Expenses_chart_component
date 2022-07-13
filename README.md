@@ -22,5 +22,8 @@ Your users should be able to:
 - See hover states for all interactive elements on the page
 - **Bonus**: See dynamically generated bars based on the data provided in the local JSON file
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+## Recommendation
+
+If you want to practice your Frontend skills, check out the [Frontend Mentor](https://www.frontendmentor.io) website, you will find many interesting challenges.
+
 
