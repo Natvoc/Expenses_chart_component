@@ -42,25 +42,30 @@ body{
     height: 20em;
     margin-top:1em;
     border-radius:10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  
     
 }
 .content h2{
     padding:0.5em;
     
 }
-.chart{
+
+.bars{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    flex-direction: row;
     margin: 1em;
+    
 }
 .one{
     width: 2em;
     height: 3em;
     border-radius: 5px;
     background: hsl(10, 79%, 65%);
-    display: flex;
-    align-items: flex-end;
 }
 .two{
     width: 2em;
@@ -101,7 +106,10 @@ body{
 .days{
     display: flex;
     justify-content: space-between;
-    font-size: 14px;
-   margin: 1.7em;
+    align-items: flex-end;
+    flex-direction: row;
+    font-size: 15px;
    color: hsl(28, 10%, 53%);
+    margin:0em 1em 0 1em;
+   
 }
