@@ -1,4 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 body{
     margin:0;
     padding:0;
+    background: hsl(27, 66%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    height: 100vh;
+    font-family: 'DM Sans', sans-serif;
+}
+.header{
+    background:hsl(10, 79%, 65%);
+    width: 90%;
+    height:6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.balance{
+    padding: 1em;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.total{
+    font-weight: 700;
+    margin-top:0.5em;
+    font-size: 21px;
+}
+.logo{
+    margin: 1em;
 }
