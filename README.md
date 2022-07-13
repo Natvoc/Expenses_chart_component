@@ -2,7 +2,7 @@
 
 ![Design preview for the Expenses chart component coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+## Hello! 👋
 This is my solution to the challenge of [Frontend Mentor](https://www.frontendmentor.io)
 
 
