@@ -6,13 +6,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     font-size: 18px;
     height: 100vh;
     font-family: 'DM Sans', sans-serif;
 }
 .header{
     background:hsl(10, 79%, 65%);
-    width: 90%;
+    width: 20em;
     height:6em;
     display: flex;
     align-items: center;
@@ -34,4 +35,73 @@ body{
 }
 .logo{
     margin: 1em;
+}
+.content{
+    background:hsl(33, 100%, 98%) ;
+    width: 20em;
+    height: 20em;
+    margin-top:1em;
+    border-radius:10px;
+    
+}
+.content h2{
+    padding:0.5em;
+    
+}
+.chart{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 1em;
+}
+.one{
+    width: 2em;
+    height: 3em;
+    border-radius: 5px;
+    background: hsl(10, 79%, 65%);
+    display: flex;
+    align-items: flex-end;
+}
+.two{
+    width: 2em;
+    height: 6em;
+    border-radius: 5px;
+    background: hsl(10, 79%, 65%);
+}
+.three{
+    width: 2em;
+    height: 9em;
+    border-radius: 5px;
+    background: hsl(186, 34%, 60%)
+}
+.four{
+    width: 2em;
+    height: 5em;
+    border-radius: 5px;
+    background: hsl(10, 79%, 65%);
+}
+.five{
+    width: 2em;
+    height: 4em;
+    border-radius: 5px;
+    background: hsl(10, 79%, 65%);
+}
+.six{
+    width: 2em;
+    height: 7em;
+    border-radius: 5px;
+    background: hsl(10, 79%, 65%);
+}
+.seven{
+    width: 2em;
+    height: 4.9em;
+    border-radius: 5px;
+    background: hsl(10, 79%, 65%);
+}
+.days{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+   margin: 1.7em;
+   color: hsl(28, 10%, 53%);
 }
